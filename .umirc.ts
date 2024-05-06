@@ -25,21 +25,20 @@ export default defineConfig({
       component: './Access',
     },
     {
-      name: ' CRUD 示例',
+      name: 'CRUD 示例',
       path: '/table',
       component: './Table',
     },
     {
-      name: ' 验证组件',
+      name: '验证组件',
       path: '/inputCom',
       component: './InputCom',
     },
     {
-      name: ' 测试组件',
-      path: '/testCom',
-      component: './TestCom',
+      name: 'tree组件',
+      path: '/TreeCom',
+      component: './TreeCom',
     },
   ],
   npmClient: 'pnpm',
 });
-
