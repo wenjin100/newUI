@@ -1,5 +1,5 @@
 import { useCallback, useRef, useState } from 'react';
-import styles from './index.less';
+import { textInputClass } from './style';
 
 const Index = ({ onValueChange }) => {
   const [codes, setCodes] = useState(Array.from({ length: 6 }, () => ''));
@@ -49,7 +49,7 @@ const Index = ({ onValueChange }) => {
           type="text"
           value={item}
           maxLength={1}
-          className={styles.textInput}
+          className={textInputClass}
           ref={(ele) => (inputsRef.current[index] = ele)}
           onChange={onInput.bind(null, index)}
           onKeyDown={onKeyDown.bind(null, index)}

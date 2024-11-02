@@ -12,18 +12,23 @@ export default defineConfig({
   routes: [
     {
       path: '/',
-      redirect: '/inputCom',
+      redirect: '/verifyInput',
     },
 
     {
       name: 'verifyInput',
-      path: '/inputCom',
-      component: './InputCom',
+      path: '/verifyInput',
+      component: './verifyInput',
     },
     {
-      name: 'treeShow',
-      path: '/TreeCom',
-      component: './TreeCom',
+      name: 'myButton',
+      path: '/myButton',
+      component: './button',
+    },
+    {
+      name: 'test',
+      path: '/myTest',
+      component: './test',
     },
   ],
   npmClient: 'pnpm',
