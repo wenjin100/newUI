@@ -7,35 +7,21 @@ export default defineConfig({
   initialState: {},
   request: {},
   layout: {
-    title: '@umijs/max',
+    title: 'wj100',
   },
   routes: [
     {
       path: '/',
-      redirect: '/home',
+      redirect: '/inputCom',
     },
+
     {
-      name: '首页',
-      path: '/home',
-      component: './Home',
-    },
-    {
-      name: '权限演示',
-      path: '/access',
-      component: './Access',
-    },
-    {
-      name: 'CRUD 示例',
-      path: '/table',
-      component: './Table',
-    },
-    {
-      name: '验证组件',
+      name: 'verifyInput',
       path: '/inputCom',
       component: './InputCom',
     },
     {
-      name: 'tree组件',
+      name: 'treeShow',
       path: '/TreeCom',
       component: './TreeCom',
     },
