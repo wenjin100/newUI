@@ -26,6 +26,11 @@ export default defineConfig({
       component: './button',
     },
     {
+      name: 'myCard',
+      path: '/myCard',
+      component: './card',
+    },
+    {
       name: 'test',
       path: '/myTest',
       component: './test',
