@@ -35,6 +35,11 @@ export default defineConfig({
       path: '/myTest',
       component: './test',
     },
+    {
+      name: 'input',
+      path: '/input',
+      component: './input',
+    },
   ],
   npmClient: 'pnpm',
 });

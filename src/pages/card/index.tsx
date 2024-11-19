@@ -7,8 +7,8 @@ const Index = () => {
         style={{ width: '600px' }}
         extra={<a href="#">More</a>}
       >
-        <p>this is my content</p>
-        <p>this is my content</p>
+        <p>this is default content</p>
+        <p>this is default content</p>
       </Card>
     </div>
   );
