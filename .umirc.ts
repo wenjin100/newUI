@@ -31,14 +31,14 @@ export default defineConfig({
       component: './card',
     },
     {
-      name: 'test',
-      path: '/myTest',
-      component: './test',
-    },
-    {
       name: 'input',
       path: '/input',
       component: './input',
+    },
+    {
+      name: 'message',
+      path: '/message',
+      component: './message',
     },
   ],
   npmClient: 'pnpm',
