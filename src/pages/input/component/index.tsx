@@ -20,6 +20,7 @@ const Input = (props: Props) => {
         type={!!password ? 'password' : 'text'}
         {...rest}
       />
+      
     </div>
   );
 };
