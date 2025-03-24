@@ -40,6 +40,11 @@ export default defineConfig({
       path: '/message',
       component: './message',
     },
+    {
+      name: 'tree',
+      path: '/tree',
+      component: './tree',
+    },
   ],
   npmClient: 'pnpm',
 });
